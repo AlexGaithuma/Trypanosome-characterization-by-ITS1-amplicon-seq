@@ -1,7 +1,8 @@
 # Trypanosome-characterization-by-ITS1-amplicon-seq
 A single test approach for accurate and sensitive detection and taxonomic characterization of Trypanosomes by comprehensive analysis of ITS1 amplicons.
   This study presents a single test approach for detection and identification of Trypanosomes and their comprehensive characterization at species and sub-group level. 
-The method uses newly designed ITS1 PCR primers (a method used widely in the detection of African Trypanosomes, amplifying the ITS1 region that lies between 18s and 5.8s ribosomal RNA genes) coupled to Illumina sequencing of the amplicon. 
+The method a widely used method in the detection of African Trypanosomes, amplifying the ITS1 region that lies between 18s and 5.8s ribosomal RNA genes) coupled to Illumina sequencing of the amplicon.
+  We designed new ITS1 primers that are more sensitive to a wide range of Trypanosome species (see Run.sh for primer sequence)
 # Protocol
 The protocol is based on the widely used Illumina’s 16s bacterial metagenomic analysis procedure that makes use of multiplex PCR and dual indexing. http://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/16s/16s-metagenomic-library-prep-guide-15044223-b.pdf
 
