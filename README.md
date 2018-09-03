@@ -15,3 +15,8 @@ All commands for analysis are contained in the Run.sh script
 3) Downstream processing of ASVs where ASV table filtering is done to correct for index-bleed where a small percentage of reads bleed into other samples. This was done by the amptk filter command using 0.005, the default index-bleed percentage. 
 4) Additional post-clustering ASV table filtering step can be done using the amptk lulu command. LULU is an algorithm for removing erroneous molecular ASVs from community data derived by high-throughput sequencing of amplified marker genes. LULU identifies errors by combining sequence similarity and co-occurrence patterns yielding reliable biodiversity estimates. 
 5) Taxonomy is assigned to the final ASV (OTU) table by a remote BLAST aganist NCBI nt database.
+
+# Example
+The provided sample data contains Illumina reads of trypanosome ITS1 region amplicons. simply download the data and run the pipeline in the Run.sh script.
+
+The final result is an OTU table with taxonomy of each of the trypanosome species detected. Also included are all the OTU sequences which can be used for phylogenetic analysis. Additionally a biom file is generated and can be used for more analysis in R using phyloseq package.
