@@ -22,4 +22,4 @@ The provided sample data contains Illumina reads of trypanosome ITS1 region ampl
 The final result is an OTU table with taxonomy of each of the trypanosome species detected. Also included are all the OTU sequences which can be used for phylogenetic analysis. Additionally a biom file is generated and can be used for more analysis in R using phyloseq package.
 
 # Full Data Access
-The full set of data is available in NCBI repository; Sequence Read Archive (SRA) under the submission Numbers: SUB4485372
+The full set of data is available in NCBI repository; Sequence Read Archive (SRA) under the Temporary SubmissionID: SUB4485372
